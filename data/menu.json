@@ -1,0 +1,734 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "HUSETS SPESIAL",
+      "category": "pizza",
+      "description": "Kebakjøtt, salat, agurk, grønn pepper, tomat, mais og kebabsaus",
+      "price": 270,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": true
+    },
+    {
+      "id": 2,
+      "name": "AMERICANA",
+      "category": "pizza",
+      "description": "Bacon, marinert biff og fersk sjampinjong",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 3,
+      "name": " VEGETARIANA",
+      "category": "pizza",
+      "description": "Fersk sjampinjong, rød paprika, tomater, løk, sorte oliven og mais",
+      "price": 235,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+       {
+      "id": 4,
+      "name": "LARVIK SPESIAL",
+      "category": "pizza",
+      "description": "Pepperoni eller skinke og ananas",
+      "price": 250,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 5,
+      "name": "VALENCIA",
+      "category": "pizza",
+      "description": "Kjøttdeig og løk",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 6,
+      "name": "VALENCIA",
+      "category": "pizza",
+      "description": "Biff, kjøttdeig, skinke, pepperoni, fersk sjampinjong, løk og paprika",
+      "price": 289,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+        {
+      "id": 7,
+      "name": "SCANDINAVIAN",
+      "category": "pizza",
+      "description": "Bacon, fersk sjampinjong og purre",
+      "price": 265,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+       {
+      "id": 8,
+      "name": "NORSK WAY",
+      "category": "pizza",
+      "description": "Skinke og fersk sjampinjong",
+      "price": 250,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 9,
+      "name": "TACO PIZZA",
+      "category": "pizza",
+      "description": "Taco kjøttdeig, løk, mais, paprika, chili, tacosaus og nachoschips",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": true
+    },
+    {
+      "id": 10,
+      "name": "MESTER´N SPESIAL",
+      "category": "pizza",
+      "description": "Marinert kylling,salat,agurk,grønn pepper,tomater og kebabsaus",
+      "price": 275,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": true
+    },
+        {
+      "id": 11,
+      "name": "CHEF’S SPESIAL",
+      "category": "pizza",
+      "description": "Skinke, kjøttboller, løk, fersk sjampinjong og rød paprika",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": true
+    },
+    {
+      "id": 12,
+      "name": "TJØLLING GRILLEN SPESIAL",
+      "category": "pizza",
+      "description": "Sett sammen din egen pizza (2 typer kjøtt + 3 typer grønnsaker)",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 13,
+      "name": "NEW YORKER",
+      "category": "pizza",
+      "description": "Marinert kylling, fersk sjampinjong, paprika og løk",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+       {
+      "id": 14,
+      "name": "MAMMA MIA",
+      "category": "pizza",
+      "description": "Biff, paprika, sjampinjong, løk og bernaise (valgfri)",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 15,
+      "name": "HAWAII",
+      "category": "pizza",
+      "description": "Kjøttdeig, skinke, fersk sjampinjong, paprika og ananas",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 16,
+      "name": "PER’S SPESIAL",
+      "category": "pizza",
+      "description": "Biff, bacon, fersk sjampinjong, løk, paprika, purre og husets krydderblanding",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": true
+    },
+        {
+      "id": 17,
+      "name": "TEXAS",
+      "category": "pizza",
+      "description": "Bacon, skinke, purre, paprika, pepperoni, biff og fersk sjampinjong",
+      "price": 289,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+       {
+      "id": 18,
+      "name": "CHICAGO",
+      "category": "pizza",
+      "description": "Kjøttdeig, biff, purre, fersk sjampinjong og løk",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 19,
+      "name": "TJØLLINGVOLLEN SPESIAL",
+      "category": "pizza",
+      "description": "Skinke, biff, pepperoni, bernaise og pommes frites",
+      "price": 275,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": true
+    },
+    {
+      "id": 20,
+      "name": "BJØNNES SPESIAL",
+      "category": "pizza",
+      "description": "Pepperoni, skinke, marinert biff, kjøttdeig, bacon, løk, tomater og nachochips",
+      "price": 289,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": true
+    },
+       {
+      "id": 21,
+      "name": " MEKSIKANSK",
+      "category": "pizza",
+      "description": "Marinert kylling, marinert biff, nachoschips, løk, mais og chili",
+      "price": 260,
+      "image": "./public/images/pizza/sample-photo.jpeg",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+     {
+      "id": 50,
+      "name": "INNBAKT 1",
+      "category": "innbaktpizza",
+      "description": "Kjøttdeig, løk og ost",
+      "price": 165,
+      "image": "",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 51,
+      "name": "INNBAKT 2",
+      "category": "innbaktpizza",
+      "description": "Skinke og fersk sjampinjong",
+      "price": 165,
+      "image": "",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 52,
+      "name": "INNBAKT 3",
+      "category": "innbaktpizza",
+      "description": "Kebabkjøtt, salat, tomater, agurk og kebabsaus",
+      "price": 175,
+      "image": "",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+    {
+      "id": 53,
+      "name": "INNBAKT 4",
+      "category": "innbaktpizza",
+      "description": "Skinke, kebabkjøtt, sjampinjong og bearnaisesaus (dobbelt innbakt) STERK!",
+      "price": 185,
+      "image": "",
+      "allergens": ["gluten", "melk"],
+      "popular": true
+    },
+    {
+      "id": 54,
+      "name": "INNBAKT 5",
+      "category": "innbaktpizza",
+      "description": "Biff, sjampinjong og løk",
+      "price": 185,
+      "image": "",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+
+
+    {
+      "id": 101,
+      "name": "Hamburger",
+      "category": "burger",
+      "description": "Saftig burger med tomat, løk, salat og dressing",
+      "image": "./public/images/burger/burger.jpg",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false,
+      "sizes": [
+        {
+          "size": "100 gr",
+          "price": 110
+        },
+        {
+          "size": "160 gr",
+          "price": 125
+        },
+        {
+          "size": "190 gr",
+          "price": 135
+        },
+        {
+          "size": "255 gr",
+          "price": 145
+        },
+        {
+          "size": "330 gr",
+          "price": 170
+        }
+      ]
+    },
+       {
+      "id": 102,
+      "name": "Cheeseburger",
+      "category": "burger",
+      "description": "Saftig burger med ost, tomat, løk, salat og dressing",
+      "image": "./public/images/burger/burger.jpg",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": true,
+      "sizes": [
+        {
+          "size": "100 gr",
+          "price": 115
+        },
+        {
+          "size": "160 gr",
+          "price": 130
+        },
+        {
+          "size": "190 gr",
+          "price": 140
+        },
+        {
+          "size": "255 gr",
+          "price": 150
+        },
+        {
+          "size": "330 gr",
+          "price": 175
+        }
+      ]
+    },
+       {
+      "id": 103,
+      "name": "Bacon / cheese",
+      "category": "burger",
+      "description": "Saftig burger med ost, bacon, tomat, løk, salat og dressing",
+      "image": "./public/images/burger/burger.jpg",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": true,
+      "sizes": [
+        {
+          "size": "100 gr",
+          "price": 120
+        },
+        {
+          "size": "160 gr",
+          "price": 135
+        },
+        {
+          "size": "190 gr",
+          "price": 145
+        },
+        {
+          "size": "255 gr",
+          "price": 155
+        },
+        {
+          "size": "330 gr",
+          "price": 180
+        }
+      ]
+    },
+       {
+      "id": 104,
+      "name": "Tallerken",
+      "category": "burger",
+      "description": "Saftig burgertallerken med tomat, løk, salat og dressing",
+      "image": "./public/images/burger/burger.jpg",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false,
+      "sizes": [
+        {
+          "size": "100 gr",
+          "price": 140
+        },
+        {
+          "size": "160 gr",
+          "price": 155
+        },
+        {
+          "size": "190 gr",
+          "price": 165
+        },
+        {
+          "size": "255 gr",
+          "price": 175
+        },
+        {
+          "size": "300 gr",
+          "price": 200
+        }
+      ]
+    },
+  
+    {
+      "id": 201,
+      "name": "KEBAB I PITA",
+      "category": "kebab",
+      "description": "Kebabkjøtt, mais, isbergsalat og kebabsaus",
+      "price": 145,
+      "image": "./public/images/kebab/kebab.jpg",
+      "allergens": ["gluten"],
+      "popular": true
+    },
+    {
+      "id": 202,
+      "name": "KYLLINGKEBAB I PITA",
+      "category": "kebab",
+      "description": "Marinert kyllingfilet, mais, isbergsalat og kebabsaus",
+      "price": 145,
+      "image": "./public/images/kebab/kebab.jpg",
+      "allergens": ["gluten"],
+      "popular": false
+    },
+        {
+      "id": 203,
+      "name": "KEBABRULL",
+      "category": "kebab",
+      "description": "Kebabkjøtt, mais, isbergsalat, løk og fersk nanbrød",
+      "price": 155,
+      "image": "./public/images/kebab/kebab.jpg",
+      "allergens": ["gluten"],
+      "popular": true
+    },
+    {
+      "id": 204,
+      "name": "KYLLINGKEBABRULL",
+      "category": "kebab",
+      "description": "Marinert kyllingfilet, mais, isbergsalat, løk og fersk nanbrød",
+      "price": 155,
+      "image": "./public/images/kebab/kebab.jpg",
+      "allergens": ["gluten"],
+      "popular": false
+    },
+      {
+      "id": 205,
+      "name": "KEBAB-TALLERKEN",
+      "category": "kebab",
+      "description": "Kebabkjøtt, mais, isbergsalat, pommes frites og kebabsaus",
+      "price": 170,
+      "image": "./public/images/kebab/kebab.jpg",
+      "allergens": ["gluten"],
+      "popular": false
+    },
+       {
+      "id": 206,
+      "name": "KYLLINGKEBAB-TALLERKEN",
+      "category": "kebab",
+      "description": "Marinert kyllingfilet, mais, isbergsalat, pommes frites og kebabsaus",
+      "price": 170,
+      "image": "./public/images/kebab/kebab.jpg",
+      "allergens": ["gluten"],
+      "popular": false
+    },
+        {
+      "id": 207,
+      "name": "KEBAB ALEKSANDER",
+      "category": "kebab",
+      "description": "Pitabrød i biter, kebabkjøtt, mais, isbergsalat, løk, tomat, agurk og grønn pepper",
+      "price": 175,
+      "image": "./public/images/kebab/kebab.jpg",
+      "allergens": ["gluten"],
+      "popular": true
+    },
+    {
+      "id": 208,
+      "name": "MESTER `N KEBABRULL",
+      "category": "kebab",
+      "description": "Dønerkebab, pommes frites og kebabsaus",
+      "price": 155,
+      "image": "./public/images/kebab/kebab.jpg",
+      "allergens": ["gluten"],
+      "popular": false
+    },
+      {
+      "id": 209,
+      "name": "MESTERN KEBAB",
+      "category": "kebab",
+      "description": "Dønerkebab, ostebrød, løk, tomat, agurk, salat, fefferoni og kebabsaus",
+      "price": 170,
+      "image": "./public/images/kebab/kebab.jpg",
+      "allergens": ["gluten"],
+      "popular": true
+    },
+
+    {
+      "id": 301,
+      "name": "KEBABSALAT",
+      "category": "salat",
+      "description": "Kebab, tomat, agurk, salat, dressing, mais, løk, osteblanding og pitabrød",
+      "price": 140,
+      "image": "",
+      "allergens": ["gluten"],
+      "popular": false
+    },
+    {
+      "id": 302,
+      "name": "KYLLINGSALAT",
+      "category": "salat",
+      "description": "Kyllingkebab, tomat, agurk, salat, dressing, mais, løk, osteblanding og pitabrød",
+      "price": 140,
+      "image": "",
+      "allergens": ["gluten"],
+      "popular": false
+    },
+    {
+      "id": 303,
+      "name": "SKINKESALAT",
+      "category": "salat",
+      "description": "Skinke, tomat, agurk, salat, dressing, mais, løk, ananas, osteblanding og pitabrød",
+      "price": 140,
+      "image": "",
+      "allergens": ["gluten"],
+      "popular": false
+    },
+      {
+      "id": 304,
+      "name": "VEGETARSALAT",
+      "category": "salat",
+      "description": "Tomat, agurk, salat, dressing, mais, løk, osteblanding og pitabrød",
+      "price": 140,
+      "image": "",
+      "allergens": ["gluten"],
+      "popular": false
+    },
+
+    {
+      "id": 401,
+      "name": "BIFFSNADDER",
+      "category": "rill",
+      "description": "Marinert biff, sjampinjong, paprika, løk, mais, pommes frites og bernaisesaus",
+      "price": 175,
+      "image": "./public/images/grillen/biffsnapper.png",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+    {
+      "id": 402,
+      "name": "HVITLØKSSNADDER",
+      "category": "grill",
+      "description": "Marinert biff, grønn chilipepper, fersk hvitløk, tomat, sjampinjong, pommes frites og hvitløksdressing",
+      "price": 175,
+      "image": "./public/images/grillen/biffsnadder.png",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+    {
+      "id": 403,
+      "name": "MEXICAN SNADDER",
+      "category": "grill",
+      "description": "Marinert biff, sjampinjong, paprika, løk, mais, jalapenos, pommes frites og peppersaus",
+      "price": 175,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+    {
+      "id": 404,
+      "name": "LØVSTEKMENY",
+      "category": "grill",
+      "description": "Løvstek, salat, dressing og pommes frites",
+      "price": 155,
+      "image": "./public/images/grillen/løvstek.png",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+       {
+      "id": 405,
+      "name": "KYLLINGMENY",
+      "category": "grill",
+      "description": "1/2 kylling, salat, pommes frites og remulade",
+      "price": 175,
+      "image": "",
+      "allergens": ["gluten", "melk"],
+      "popular": false
+    },
+
+    {
+      "id": 406,
+      "name": "LØVBURGER",
+      "category": "grill",
+      "description": "",
+      "price": 130,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+        {
+      "id": 407,
+      "name": "KYLLINGBURGER",
+      "category": "grill",
+      "description": "",
+      "price": 130,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+    {
+      "id": 408,
+      "name": "KYLLINGBURGER-TALLERKEN",
+      "category": "grill",
+      "description": "",
+      "price": 160,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+     {
+      "id": 409,
+      "name": "FISH & CHIPS",
+      "category": "grill",
+      "description": "",
+      "price": 155,
+      "image": "./public/images/grillen/fish-n-chips.png",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+
+
+
+     {
+      "id": 501,
+      "name": "WIENERTOAST",
+      "category": "småretter",
+      "description": "",
+      "price": 54,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+        {
+      "id": 502,
+      "name": "POMMES FRITES",
+      "category": "småretter",
+      "description": "",
+      "price": 54,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+    {
+      "id": 503,
+      "name": "POMMES FRITES M/SALAT OG DRESSING",
+      "category": "småretter",
+      "description": "",
+      "price": 95,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+     {
+      "id": 504,
+      "name": "KYLLINGNUGGETS",
+      "category": "småretter",
+      "description": "",
+      "price": 85,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+
+        {
+      "id": 601,
+      "name": "SKINKE, OST",
+      "category": "baguetter",
+      "description": "",
+      "price": 104,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+    {
+      "id": 602,
+      "name": "KYLLING",
+      "category": "baguetter",
+      "description": "",
+      "price": 104,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+     {
+      "id": 603,
+      "name": "KJØTTDEIG, LØK, OST",
+      "category": "baguetter",
+      "description": "",
+      "price": 104,
+      "image": "",
+      "allergens": ["gluten", "melk", "egg"],
+      "popular": false
+    },
+     {
+      "id": 701,
+      "name": "0.5 Liter",
+      "category": "drikker",
+      "description": "",
+      "price": 39,
+      "image": "",
+      "allergens": [],
+      "popular": false
+    },
+
+        {
+      "id": 702,
+      "name": "ENERGY DRIKKE",
+      "category": "drikker",
+      "description": "",
+      "price": 49,
+      "image": "",
+      "allergens": [],
+      "popular": false
+    },
+    {
+      "id": 703,
+      "name": "KULI",
+      "category": "drikker",
+      "description": "",
+      "price": 29,
+      "image": "",
+      "allergens": [],
+      "popular": false
+    },
+     {
+      "id": 704,
+      "name": "KAFFE",
+      "category": "drikker",
+      "description": "",
+      "price": 25,
+      "image": "",
+      "allergens": [],
+      "popular": false
+    }
+
+
+
+
+
+  ]
+}

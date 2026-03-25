@@ -1,0 +1,402 @@
+/* =====================
+   BASE
+===================== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #faf7f2;
+  color: #222;
+}
+
+.menu-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =====================
+   MAIN HEADER
+===================== */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: linear-gradient(to right, #b71c1c, #d84315);
+  color: white;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo img{
+ height: 50px;
+ width: auto;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  transition: 0.2s;
+}
+
+/* underline animation */
+.nav a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: white;
+  left: 0;
+  bottom: -3px;
+  transition: 0.3s;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+/* CALL BUTTON */
+.call-btn {
+  background: white;
+  color: #d84315;
+  padding: 8px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.call-btn:hover {
+  transform: scale(1.05);
+}
+/* =====================
+   HAMBURGER
+===================== */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  transition: 0.3s;
+}
+
+/* animation til X */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* =====================
+   MOBILE MENU
+===================== */
+.mobile-menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: #111;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-height: 0;
+  overflow: hidden;
+
+  transition: max-height 0.3s ease;
+}
+
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+/* åpnet meny */
+.mobile-menu.open {
+  max-height: 300px;
+}
+
+/* =====================
+   FOOTER
+===================== */
+.footer {
+  background: #1a1a1a;
+  color: #ccc;
+  margin-top: 40px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.footer h3,
+.footer h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* bottom bar */
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background: #111;
+  font-size: 13px;
+}
+
+
+/* =====================
+   HEADER
+===================== */
+h1 {
+  text-align: center;
+  padding: 25px 0 10px;
+  margin: 0;
+  font-size: 32px;
+  color: #b71c1c;
+  letter-spacing: 1px;
+}
+
+/* =====================
+   FILTER BAR
+===================== */
+.menu-options {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #faf7f2;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 20px;
+}
+
+.filters button {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+.filters button:hover {
+  background: #ffe5e0;
+  border-color: #ff7043;
+}
+
+.filters button.active {
+  background: #d84315;
+  color: white;
+  border-color: #d84315;
+}
+
+/* =====================
+   GRID
+===================== */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* =====================
+   CARD
+===================== */
+.card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+  position: relative;
+  animation: fadeIn 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* =====================
+   IMAGE + GRILL EFFECT
+===================== */
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+/* 🔥 grill vibe overlay */
+.card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 170px;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 80, 0, 0.15),
+    rgba(0,0,0,0.3)
+  );
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* =====================
+   TEXT
+===================== */
+.card h3 {
+  margin: 12px 12px 4px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0 12px 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* =====================
+   PRICE
+===================== */
+.price-wrapper {
+  padding: 0 12px 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d84315;
+}
+
+/* =====================
+   SIZE BUTTONS
+===================== */
+.size-btn {
+  margin: 5px 6px 0 0;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: none;
+  background: #f3f3f3;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.size-btn:hover {
+  background: #ff7043;
+  color: white;
+}
+
+/* =====================
+   BADGE
+===================== */
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: linear-gradient(45deg, #ff3d00, #ff7043);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* =====================
+   ALLERGENS
+===================== */
+.allergens {
+  padding: 0 12px 12px;
+}
+
+.allergens span {
+  margin-right: 6px;
+  font-size: 16px;
+}
+
+/* =====================
+   ANIMATIONS
+===================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =====================
+   MOBILE
+===================== */
+@media (max-width: 600px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+   .nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

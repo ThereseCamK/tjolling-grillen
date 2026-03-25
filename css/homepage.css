@@ -1,0 +1,152 @@
+/* =====================
+   HERO
+===================== */
+.hero {
+  height: 300px;
+  background: url("/public/images/restaurant-photo-header.jpeg") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+.hero-content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  z-index: -1;
+  backdrop-filter: blur(4px);
+}
+
+.hero::after {
+content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0.8)
+  );
+}
+.hero-content h1 {
+  color: white;
+}
+
+.hero-content p {
+  color: #ddd;
+}
+.hero-content h1,
+.hero-content p {
+  text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+.hero-content {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+   background: #d84315;
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 999px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  text-decoration: none;
+}
+
+/* =====================
+   CATEGORIES
+===================== */
+.categories {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.category-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+   text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border: 1px solid #eee;
+  transition: 0.2s;
+}
+
+.category-card:hover {
+  background: #ffe5e0;
+}
+
+/* =====================
+   POPULAR
+===================== */
+.popular {
+  padding: 30px 20px;
+   text-align: center;
+}
+
+.popular-items {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.popular-card {
+  min-width: 220px;
+  max-width: 250px;
+  transition: 0.2s;
+}
+
+.popular-card:hover {
+  transform: translateY(-5px);
+}
+
+.popular-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* =====================
+   INFO
+===================== */
+.info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 30px 20px;
+  background: #fff3ef;
+  text-align: center;
+}
+
+/* =====================
+   CTA
+===================== */
+.cta {
+  text-align: center;
+  padding: 40px 20px;
+}
+@media (min-width: 768px) {
+  .popular-items {
+    justify-content: center; /* 🔥 sentrer */
+    
+  }
+}
