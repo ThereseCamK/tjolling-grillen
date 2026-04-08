@@ -1,3 +1,3 @@
-const BASE = location.hostname.includes("github.io") 
+export const BASE = location.hostname.includes("github.io") 
 ? "/tjolling-grillen"
 : "/";
