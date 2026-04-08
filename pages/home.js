@@ -1,3 +1,4 @@
+import { BASE } from "../js/src/config.js";
 export default function Home() {
   return `
     <div class="home">
@@ -66,8 +67,9 @@ export default function Home() {
     </div>
   `;
 }
+
 export async function initHome() {
-  const res = await fetch("../data/menu.json");
+   const res = await fetch(`${BASE}data/menu.json`);
   const data = await res.json();
 
   const popular = data.items.filter(item => item.popular);

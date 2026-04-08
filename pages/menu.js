@@ -1,14 +1,11 @@
-// =====================
-// STATE
-// =====================
+import { BASE } from "../js/src/config.js";
+
 const state = {
   menu: [],
   category: "all"
 };
 
-// =====================
-// PAGE TEMPLATE
-// =====================
+
 export default function Menu() {
   return `
     <div class="menu-page">
@@ -23,11 +20,10 @@ export default function Menu() {
   `;
 }
 
-// =====================
-// INIT
-// =====================
+
+
 export async function initMenu() {
-  const res = await fetch("../data/menu.json");
+  const res = await fetch(`${BASE}data/menu.json`);
   const data = await res.json();
 
   state.menu = data.items;
@@ -44,9 +40,6 @@ export async function initMenu() {
   renderMenu();
 }
 
-// =====================
-// FILTERS
-// =====================
 function renderFilters() {
   const menuOptions = document.querySelector(".menu-options");
   menuOptions.innerHTML = "";
@@ -85,17 +78,13 @@ function renderFilters() {
   menuOptions.appendChild(container);
 }
 
-// =====================
-// MAIN RENDER UPDATE
-// =====================
+
 function updateView() {
   updateActiveButton();
   renderMenu();
 }
 
-// =====================
-// UPDATE ACTIVE BUTTON
-// =====================
+
 function updateActiveButton() {
   document.querySelectorAll(".filters button").forEach(btn => {
     btn.classList.remove("active");
@@ -106,13 +95,11 @@ function updateActiveButton() {
   });
 }
 
-// =====================
-// MENU RENDER
-// =====================
+
 function renderMenu() {
   const menuOutput = document.querySelector(".menu-output");
 
-  // 💥 viktig: clear før render
+
   menuOutput.innerHTML = "";
 
   const container = document.createElement("div");
@@ -130,14 +117,12 @@ function renderMenu() {
   menuOutput.appendChild(container);
 }
 
-// =====================
-// CARD COMPONENT
-// =====================
+
 function createCard(item) {
   const card = document.createElement("div");
   card.className = "card";
 
-  // 🔥 popular
+
   if (item.popular) {
     const badge = document.createElement("div");
     badge.className = "badge";
@@ -145,20 +130,20 @@ function createCard(item) {
     card.appendChild(badge);
   }
 
-  // 🖼️ image
+
   const img = document.createElement("img");
   img.src = item.image || "./public/images/default.png";
   img.alt = item.name;
   card.appendChild(img);
 
-  // 📝 name
+
   const title = document.createElement("h3");
   title.textContent = item.name;
   card.appendChild(title);
-    // 💰 price / sizes
+
   card.appendChild(renderPrice(item));
 
-  // 📄 description
+
   if (item.description) {
     const desc = document.createElement("p");
     desc.textContent = item.description;
@@ -167,15 +152,13 @@ function createCard(item) {
 
 
 
-  // ⚠️ allergens
+
   card.appendChild(renderAllergens(item.allergens));
 
   return card;
 }
 
-// =====================
-// PRICE / SIZES
-// =====================
+
 function renderPrice(item) {
   const wrapper = document.createElement("div");
   wrapper.className = "price-wrapper";
@@ -202,9 +185,7 @@ function renderPrice(item) {
   return wrapper;
 }
 
-// =====================
-// ALLERGENS
-// =====================
+
 function renderAllergens(allergens = []) {
   const container = document.createElement("div");
   container.className = "allergens";
