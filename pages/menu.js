@@ -15,7 +15,9 @@ export default function Menu() {
       <h1>MENY</h1>
 
       <div class="menu-options"></div>
-
+        <div class="allergen-legend">
+            🌾 Gluten · 🥛 Melk · 🥚 Egg · 🌶️ Sennep · 🌿 Sesam · 🐟 Fisk · 🫘 Soya
+        </div>
       <div class="menu-output"></div>
     </div>
   `;
@@ -210,7 +212,11 @@ function renderAllergens(allergens = []) {
   const icons = {
     gluten: "🌾",
     melk: "🥛",
-    egg: "🥚"
+    egg: "🥚",
+    sennep: "🌶️",
+    sesam: "🌿",
+    fisk: "🐟",
+    soya: "🫘"
   };
 
   allergens.forEach(a => {

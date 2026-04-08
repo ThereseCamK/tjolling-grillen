@@ -11,19 +11,22 @@ export default function Footer() {
 
         <div>
           <h4>Åpningstider</h4>
-          <p>Man–Søn: 13:00 – 22:00</p>
+            <p>Man–Tors: 10:00 – 22:00</p>
+            <p>Fre–Lørd: 10:00 – 23:00</p>
+            <p>Søndag: 11:00 – 22:00</p>
+            <tt>Kan forekomme endringer </tt>
         </div>
 
         <div>
           <h4>Kontakt</h4>
-          <p>📞 12 34 56 78</p>
-          <p>📍 Tjølling, Larvik</p>
+          <p>📞  33 11 71 11</p>
+          <p>📍 Skreppestadveien 26, 3261 Larvik</p>
         </div>
 
       </div>
 
       <div class="footer-bottom">
-        © 2026 Tjølling Grillen- laget av  <a href="https://theresecamilla.no"  target="_blank"">Therese Camilla Nordnes</a>
+        © 2026 Tjølling Grillen- <p>Webdesign laget av  <a href="https://theresecamilla.no"  target="_blank"">Therese Camilla Nordnes</a></p>
       </div>
 
     </footer>
