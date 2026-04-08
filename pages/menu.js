@@ -27,7 +27,7 @@ export default function Menu() {
 // INIT
 // =====================
 export async function initMenu() {
-  const res = await fetch("./data/menu.json");
+  const res = await fetch("../data/menu.json");
   const data = await res.json();
 
   state.menu = data.items;

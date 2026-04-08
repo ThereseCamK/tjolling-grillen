@@ -6,7 +6,7 @@
       "category": "pizza",
       "description": "Kebakjøtt, salat, agurk, grønn pepper, tomat, mais og kebabsaus",
       "price": 270,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": true
     },
@@ -16,7 +16,7 @@
       "category": "pizza",
       "description": "Bacon, marinert biff og fersk sjampinjong",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -26,7 +26,7 @@
       "category": "pizza",
       "description": "Fersk sjampinjong, rød paprika, tomater, løk, sorte oliven og mais",
       "price": 235,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -36,7 +36,7 @@
       "category": "pizza",
       "description": "Pepperoni eller skinke og ananas",
       "price": 250,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -46,7 +46,7 @@
       "category": "pizza",
       "description": "Kjøttdeig og løk",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -56,7 +56,7 @@
       "category": "pizza",
       "description": "Biff, kjøttdeig, skinke, pepperoni, fersk sjampinjong, løk og paprika",
       "price": 289,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -66,7 +66,7 @@
       "category": "pizza",
       "description": "Bacon, fersk sjampinjong og purre",
       "price": 265,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -76,7 +76,7 @@
       "category": "pizza",
       "description": "Skinke og fersk sjampinjong",
       "price": 250,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -86,7 +86,7 @@
       "category": "pizza",
       "description": "Taco kjøttdeig, løk, mais, paprika, chili, tacosaus og nachoschips",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": true
     },
@@ -96,7 +96,7 @@
       "category": "pizza",
       "description": "Marinert kylling,salat,agurk,grønn pepper,tomater og kebabsaus",
       "price": 275,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": true
     },
@@ -106,7 +106,7 @@
       "category": "pizza",
       "description": "Skinke, kjøttboller, løk, fersk sjampinjong og rød paprika",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": true
     },
@@ -116,7 +116,7 @@
       "category": "pizza",
       "description": "Sett sammen din egen pizza (2 typer kjøtt + 3 typer grønnsaker)",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -126,7 +126,7 @@
       "category": "pizza",
       "description": "Marinert kylling, fersk sjampinjong, paprika og løk",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -136,7 +136,7 @@
       "category": "pizza",
       "description": "Biff, paprika, sjampinjong, løk og bernaise (valgfri)",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -146,7 +146,7 @@
       "category": "pizza",
       "description": "Kjøttdeig, skinke, fersk sjampinjong, paprika og ananas",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -156,7 +156,7 @@
       "category": "pizza",
       "description": "Biff, bacon, fersk sjampinjong, løk, paprika, purre og husets krydderblanding",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": true
     },
@@ -166,7 +166,7 @@
       "category": "pizza",
       "description": "Bacon, skinke, purre, paprika, pepperoni, biff og fersk sjampinjong",
       "price": 289,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -176,7 +176,7 @@
       "category": "pizza",
       "description": "Kjøttdeig, biff, purre, fersk sjampinjong og løk",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -186,7 +186,7 @@
       "category": "pizza",
       "description": "Skinke, biff, pepperoni, bernaise og pommes frites",
       "price": 275,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": true
     },
@@ -196,7 +196,7 @@
       "category": "pizza",
       "description": "Pepperoni, skinke, marinert biff, kjøttdeig, bacon, løk, tomater og nachochips",
       "price": 289,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": true
     },
@@ -206,7 +206,7 @@
       "category": "pizza",
       "description": "Marinert kylling, marinert biff, nachoschips, løk, mais og chili",
       "price": 260,
-      "image": "./public/images/pizza/sample-photo.jpeg",
+      "image": "../public/images/pizza/sample-photo.jpeg",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -267,7 +267,7 @@
       "name": "Hamburger",
       "category": "burger",
       "description": "Saftig burger med tomat, løk, salat og dressing",
-      "image": "./public/images/burger/hamburger.png",
+      "image": "../public/images/burger/hamburger.png",
       "allergens": ["gluten", "egg", "sennep", "sesam"],
       "popular": false,
       "sizes": [
@@ -298,7 +298,7 @@
       "name": "Cheeseburger",
       "category": "burger",
       "description": "Saftig burger med ost, tomat, løk, salat og dressing",
-      "image": "./public/images/burger/cheeseburger.png",
+      "image": "../public/images/burger/cheeseburger.png",
       "allergens": ["gluten", "melk", "egg", "sennep", "sesam"],
       "popular": true,
       "sizes": [
@@ -329,7 +329,7 @@
       "name": "Bacon / cheese",
       "category": "burger",
       "description": "Saftig burger med ost, bacon, tomat, løk, salat og dressing",
-      "image": "./public/images/burger/bacon-cheese.png",
+      "image": "../public/images/burger/bacon-cheese.png",
       "allergens": ["gluten", "melk", "egg", "sennep", "sesam"],
       "popular": true,
       "sizes": [
@@ -360,7 +360,7 @@
       "name": "Tallerken",
       "category": "burger",
       "description": "Saftig burgertallerken med tomat, løk, salat og dressing",
-      "image": "./public/images/burger/hamburger-tallerken.png",
+      "image": "../public/images/burger/hamburger-tallerken.png",
       "allergens": ["gluten", "egg", "sennep", "sesam"],
       "popular": false,
       "sizes": [
@@ -393,7 +393,7 @@
       "category": "kebab",
       "description": "Kebabkjøtt, mais, isbergsalat og kebabsaus",
       "price": 145,
-      "image": "./public/images/kebab/kebab.jpg",
+      "image": "../public/images/kebab/kebab.jpg",
       "allergens": ["gluten", "melk", "egg", "sennep", "soya"],
       "popular": true
     },
@@ -403,7 +403,7 @@
       "category": "kebab",
       "description": "Marinert kyllingfilet, mais, isbergsalat og kebabsaus",
       "price": 145,
-      "image": "./public/images/kebab/kebab.jpg",
+      "image": "../public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
       "popular": false
     },
@@ -413,7 +413,7 @@
       "category": "kebab",
       "description": "Kebabkjøtt, mais, isbergsalat, løk og fersk nanbrød",
       "price": 155,
-      "image": "./public/images/kebab/kebab.jpg",
+      "image": "../public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
       "popular": false
     },
@@ -423,7 +423,7 @@
       "category": "kebab",
       "description": "Marinert kyllingfilet, mais, isbergsalat, løk og fersk nanbrød",
       "price": 155,
-      "image": "./public/images/kebab/kebab.jpg",
+      "image": "../public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
       "popular": false
     },
@@ -433,7 +433,7 @@
       "category": "kebab",
       "description": "Kebabkjøtt, mais, isbergsalat, pommes frites og kebabsaus",
       "price": 170,
-      "image": "./public/images/kebab/kebab.jpg",
+      "image": "../public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
       "popular": false
     },
@@ -443,7 +443,7 @@
       "category": "kebab",
       "description": "Marinert kyllingfilet, mais, isbergsalat, pommes frites og kebabsaus",
       "price": 170,
-      "image": "./public/images/kebab/kebab.jpg",
+      "image": "../public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
       "popular": false
     },
@@ -453,7 +453,7 @@
       "category": "kebab",
       "description": "Pitabrød i biter, kebabkjøtt, mais, isbergsalat, løk, tomat, agurk og grønn pepper",
       "price": 175,
-      "image": "./public/images/kebab/kebab.jpg",
+      "image": "../public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
       "popular": true
     },
@@ -463,7 +463,7 @@
       "category": "kebab",
       "description": "Dønerkebab, pommes frites og kebabsaus",
       "price": 155,
-      "image": "./public/images/kebab/kebab.jpg",
+      "image": "../public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
       "popular": false
     },
@@ -473,7 +473,7 @@
       "category": "kebab",
       "description": "Dønerkebab, ostebrød, løk, tomat, agurk, salat, fefferoni og kebabsaus",
       "price": 170,
-      "image": "./public/images/kebab/kebab.jpg",
+      "image": "../public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
       "popular": false
     },
@@ -484,7 +484,7 @@
       "category": "salat",
       "description": "Kebab, tomat, agurk, salat, dressing, mais, løk, osteblanding og pitabrød",
       "price": 140,
-      "image": "./public/images/salat/kebabsalat.png",
+      "image": "../public/images/salat/kebabsalat.png",
       "allergens": ["gluten", "melk", "egg", "sennep", "soya"],
       "popular": false
     },
@@ -494,7 +494,7 @@
       "category": "salat",
       "description": "Kyllingkebab, tomat, agurk, salat, dressing, mais, løk, osteblanding og pitabrød",
       "price": 140,
-      "image": "./public/images/salat/kyllingsalat.png",
+      "image": "../public/images/salat/kyllingsalat.png",
       "allergens": ["gluten", "melk", "egg", "sennep", "soya"],
       "popular": false
     },
@@ -504,7 +504,7 @@
       "category": "salat",
       "description": "Skinke, tomat, agurk, salat, dressing, mais, løk, ananas, osteblanding og pitabrød",
       "price": 140,
-      "image": "./public/images/salat/skinkesalat.png",
+      "image": "../public/images/salat/skinkesalat.png",
       "allergens": ["gluten", "melk", "egg", "sennep"],
       "popular": false
     },
@@ -514,7 +514,7 @@
       "category": "salat",
       "description": "Tomat, agurk, salat, dressing, mais, løk, osteblanding og pitabrød",
       "price": 140,
-      "image": "./public/images/salat/vegetarsalat.png",
+      "image": "../public/images/salat/vegetarsalat.png",
       "allergens": ["gluten", "melk", "egg", "sennep"],
       "popular": false
     },
@@ -525,7 +525,7 @@
       "category": "grill",
       "description": "Marinert biff, sjampinjong, paprika, løk, mais, pommes frites og bernaisesaus",
       "price": 175,
-      "image": "./public/images/grillen/biffsnadder1.png",
+      "image": "../public/images/grillen/biffsnadder1.png",
       "allergens": ["gluten", "melk", "egg"],
       "popular": false
     },
@@ -535,7 +535,7 @@
       "category": "grill",
       "description": "Marinert biff, grønn chilipepper, fersk hvitløk, tomat, sjampinjong, pommes frites og hvitløksdressing",
       "price": 175,
-      "image": "./public/images/grillen/hvitløksnadder.png",
+      "image": "../public/images/grillen/hvitløksnadder.png",
       "allergens": ["gluten", "melk", "egg", "sennep"],
       "popular": false
     },
@@ -545,7 +545,7 @@
       "category": "grill",
       "description": "Marinert biff, sjampinjong, paprika, løk, mais, jalapenos, pommes frites og peppersaus",
       "price": 175,
-      "image": "./public/images/grillen/mexicansnadder.png",
+      "image": "../public/images/grillen/mexicansnadder.png",
       "allergens": ["gluten", "melk", "egg", "sennep"],
       "popular": false
     },
@@ -555,7 +555,7 @@
       "category": "grill",
       "description": "Løvstek, salat, dressing og pommes frites",
       "price": 155,
-      "image": "./public/images/grillen/løvstek.png",
+      "image": "../public/images/grillen/løvstek.png",
       "allergens": ["gluten", "melk", "egg", "sennep"],
       "popular": false
     },
@@ -565,7 +565,7 @@
       "category": "grill",
       "description": "1/2 kylling, salat, pommes frites og remulade",
       "price": 175,
-      "image": "./public/images/grillen/kyllingmeny.png",
+      "image": "../public/images/grillen/kyllingmeny.png",
       "allergens": ["gluten",  "egg"],
       "popular": false
     },
@@ -576,7 +576,7 @@
       "category": "grill",
       "description": "",
       "price": 130,
-      "image": "./public/images/grillen/lovstekburger.png",
+      "image": "../public/images/grillen/lovstekburger.png",
       "allergens": ["gluten", "melk", "egg", "sennep", "sesam"],
       "popular": false
     },
@@ -596,7 +596,7 @@
       "category": "grill",
       "description": "",
       "price": 160,
-      "image": "./public/images/grillen/kyllingburgertallerken.png",
+      "image": "../public/images/grillen/kyllingburgertallerken.png",
       "allergens": ["gluten", "melk", "egg", "sesam"],
       "popular": false
     },
@@ -606,7 +606,7 @@
       "category": "grill",
       "description": "",
       "price": 155,
-      "image": "./public/images/grillen/fish-n-chips.png",
+      "image": "../public/images/grillen/fish-n-chips.png",
       "allergens": ["gluten", "melk", "egg"],
       "popular": false
     },
@@ -619,7 +619,7 @@
       "category": "småretter",
       "description": "",
       "price": 54,
-      "image": "./public/images/smaretter/toast.png",
+      "image": "../public/images/smaretter/toast.png",
       "allergens": ["gluten", "melk"],
       "popular": false
     },
@@ -629,7 +629,7 @@
       "category": "småretter",
       "description": "",
       "price": 54,
-      "image": "./public/images/smaretter/pommes-frites.png",
+      "image": "../public/images/smaretter/pommes-frites.png",
       "allergens": ["gluten"],
       "popular": false
     },
@@ -639,7 +639,7 @@
       "category": "småretter",
       "description": "",
       "price": 95,
-      "image": "./public/images/smaretter/pommes-frites-salat.png",
+      "image": "../public/images/smaretter/pommes-frites-salat.png",
       "allergens": ["gluten", "melk", "egg", "sennep"],
       "popular": false
     },
@@ -649,7 +649,7 @@
       "category": "småretter",
       "description": "",
       "price": 85,
-      "image": "./public/images/smaretter/nuggets.png",
+      "image": "../public/images/smaretter/nuggets.png",
       "allergens": ["gluten", "egg", "soya"],
       "popular": false
     },
