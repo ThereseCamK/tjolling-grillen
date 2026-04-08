@@ -3,7 +3,7 @@
 ===================== */
 .hero {
   height: 300px;
-  background: url("/public/images/restaurant-photo-header.jpeg") center/cover;
+  background: url("./public/images/restaurant-photo-header.jpeg") center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
