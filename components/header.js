@@ -26,7 +26,8 @@ export default function Header(){
       <div class="mobile-menu" id="mobile-menu">
         <a href="/" data-link>Hjem</a>
         <a href="/menu" data-link>Meny</a>
-        <a href="tel:+4733117111" class="call-btn">📞 Ring oss</a>
+
+        <a href="tel:+4733311711" class="call-btn">📞 Ring oss</a>
       </div>
     
     </header>`
