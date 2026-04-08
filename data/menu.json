@@ -394,7 +394,7 @@
       "description": "Kebabkjøtt, mais, isbergsalat og kebabsaus",
       "price": 145,
       "image": "./public/images/kebab/kebab.jpg",
-      "allergens": ["gluten"],
+      "allergens": ["gluten", "melk", "egg", "sennep", "soya"],
       "popular": true
     },
     {
@@ -415,7 +415,7 @@
       "price": 155,
       "image": "./public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
-      "popular": true
+      "popular": false
     },
     {
       "id": 204,
@@ -475,7 +475,7 @@
       "price": 170,
       "image": "./public/images/kebab/kebab.jpg",
       "allergens": ["gluten"],
-      "popular": true
+      "popular": false
     },
 
     {

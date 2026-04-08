@@ -10,7 +10,7 @@ export default function Header(){
         <nav class="nav">
           <a href="/" data-link>Hjem</a>
           <a href="/menu" data-link>Meny</a>
-          <a href="/contact" data-link>Kontakt</a>
+        
         </nav>
 
         <!-- Mobile hamburger -->
@@ -26,8 +26,7 @@ export default function Header(){
       <div class="mobile-menu" id="mobile-menu">
         <a href="/" data-link>Hjem</a>
         <a href="/menu" data-link>Meny</a>
-        <a href="/contact" data-link>Kontakt</a>
-        <a href="tel:+4712345678" class="call-btn">📞 Ring oss</a>
+        <a href="tel:+4733117111" class="call-btn">📞 Ring oss</a>
       </div>
     
     </header>`
