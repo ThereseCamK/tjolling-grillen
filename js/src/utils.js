@@ -6,8 +6,8 @@ export function setActiveNav(){
         const linkPath = link.getAttribute("href");
         link.classList.remove("active");
 
-        if(link.pathname === path){
-            link.classList.add("active");
+        if(link.pathname === linkPath){
+            currentPath.classList.add("active");
         }
     });
 }

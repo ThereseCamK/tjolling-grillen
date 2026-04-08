@@ -23,7 +23,7 @@ export default function Menu() {
 
 
 export async function initMenu() {
-  const res = await fetch(`${BASE}data/menu.json`);
+  const res = await fetch(`${BASE}/data/menu.json`);
   const data = await res.json();
 
   state.menu = data.items;

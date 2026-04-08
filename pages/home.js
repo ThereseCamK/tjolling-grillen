@@ -69,7 +69,7 @@ export default function Home() {
 }
 
 export async function initHome() {
-   const res = await fetch(`${BASE}data/menu.json`);
+   const res = await fetch(`${BASE}/data/menu.json`);
   const data = await res.json();
 
   const popular = data.items.filter(item => item.popular);
