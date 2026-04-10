@@ -1,46 +1,52 @@
 import routes from "./routes.js";
-import { setActiveNav } from "./src/utils.js"
+import { setActiveNav } from "./src/utils.js";
+import { BASE } from "./src/config.js";
 
 const NotFound = () => `
 <div> 
     <h1>404 - Page not Found</h1> 
-    <a href="/" data-link>Hjem </a>
+    <a href="/" data-link>Hjem</a>
 </div>`;
 
 function router() {
-    let path = location.pathname;
+  let path = location.pathname;
 
-    try {
-        const url = new URL(window.location.href);
-        path = url.pathname;
-    } catch (e){}
-    if(path.endsWith("index.html") || path === "/templates/") path = "/";
+  if (BASE !== "/" && path.startsWith(BASE)) {
+    path = path.slice(BASE.length) || "/";
+  }
 
-        const route = routes.find(r => r.path === path);
+  if (path.endsWith("index.html")) {
+    path = "/";
+  }
 
-        const view = route ? route.view : NotFound;
-        document.querySelector("#app").innerHTML = view();
+  const route = routes.find(r => r.path === path);
 
-        if(route && route.init){
-            route.init();
-        }
+  const view = route ? route.view : NotFound;
+  document.querySelector("#app").innerHTML = view();
+
+  if (route && route.init) {
+    route.init();
+  }
 }
 
-function navigateTo(url){
-    history.pushState(null, null, url);
-    router();
-    setActiveNav();
+function navigateTo(url) {
+  const cleanUrl = url.startsWith("/") ? url : `/${url}`;
+  const fullUrl = BASE === "/" ? cleanUrl : `${BASE}${cleanUrl}`;
+
+  history.pushState({}, "", fullUrl);
+  router();
+  setActiveNav();
 }
 
-export function initRouter(){
-    document.addEventListener("click", (e) => {
-        const link = e.target.closest("a[data-link]");
-        if(link){
-            e.preventDefault();
-            navigateTo(link.href);
-        }
-    });
+export function initRouter() {
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest("a[data-link]");
+    if (link) {
+      e.preventDefault();
+      navigateTo(link.getAttribute("href"));
+    }
+  });
 
-    window.addEventListener("popstate", router);
-    window.addEventListener("DOMContentLoaded", router);
+  window.addEventListener("popstate", router);
+  window.addEventListener("DOMContentLoaded", router);
 }
