@@ -15,6 +15,13 @@
 
  <main id="app"></main>
 <footer id="footer"></footer>
+<script>
+  const redirect = sessionStorage.redirect;
+  delete sessionStorage.redirect;
+  if (redirect) {
+    history.replaceState(null, null, redirect);
+  }
+</script>
   <script type="module" src="./js/app.js"></script>
 </body>
 </html>

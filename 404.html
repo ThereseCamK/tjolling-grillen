@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <script>
-      // Redirect til index med path
-      const path = window.location.pathname;
-      window.location.href = "/?path=" + path;
+      sessionStorage.redirect = location.pathname;
+      location.replace("/tjolling-grillen/");
     </script>
   </head>
   <body></body>
