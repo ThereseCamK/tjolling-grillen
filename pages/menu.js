@@ -48,7 +48,7 @@ function renderFilters() {
   container.className = "filters";
 
   const categories = [
-    "alle",
+    "all",
     "pizza",
     "innbaktpizza",
     "burger",
@@ -106,7 +106,7 @@ function renderMenu() {
   container.className = "menu-grid";
 
   const filtered =
-    state.category === "alle"
+    state.category === "all"
       ? state.menu
       : state.menu.filter(item => item.category === state.category);
 
@@ -132,7 +132,7 @@ function createCard(item) {
 
 
   const img = document.createElement("img");
-  img.src = item.image || "public/images/default.png";
+  img.src = item.image || "./public/images/default.png";
   img.alt = item.name;
   card.appendChild(img);
 
